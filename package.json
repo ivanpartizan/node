@@ -5,12 +5,13 @@
   "main": "app.js",
   "scripts": {
     "start": "node app.js",
-    "dev": "nodemon EventEmitter.js",
+    "dev": "nodemon expressAppExample.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "express": "^4.17.1",
     "lodash": "^4.17.21"
   },
   "devDependencies": {
